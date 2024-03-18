@@ -69,13 +69,58 @@ body{
   .nav_bar {
     position: relative; /* Add relative positioning to the container */
   }
-
+  .logo{
+    visibility: hidden;
+  }
   .left {
     position: absolute;
-    left: 20px; /* Adjust the left position as needed */
-    visibility: hidden;/* Hide when the menu is open */
+     /* Adjust the left position as needed */
+    /* Hide when the menu is open */
   }
+  .home .right .img {
+    position: absolute;
+    bottom: 50%;
+    
+   
 
+  }
+  .right .img img{
+    position: absolute;
+    width: 250px !important;
+    height: 250px !important;
+    transform: translateX(80%) !important;
+    margin-bottom: 250px ;
+    
+  }
+  .home .left .des {
+  
+  position: absolute; 
+  margin-top: 50px;
+   
+
+  }
+  .home .left .name{
+    position: absolute;
+    margin-left: 130px;
+    margin-top:  -50px;
+    
+  }
+  .home .left .example-2{
+    position: absolute;
+    margin-left: 35px;
+    margin-top:  280px;
+    
+    
+  }
+  .home .left .button{
+    position: absolute;
+    margin-left: -165px;
+    margin-top: 200px;
+    
+    
+    
+  }
+  
   .nav_bar .nav_items {
     display: none; /* Hide on smaller screens initially */
     flex-direction: column;
@@ -172,8 +217,6 @@ a{
 span{
   color:rgba(150, 93, 233, 1)
 }
-
-// Animated text   
 
 .name{
  font-size: large;
@@ -501,22 +544,34 @@ button:hover {
   background-color: #45a049;
 }
 
+
 .skills {
   max-width: 68.75rem;
   margin: auto;
   text-align: center;
-  margin-top: 2.5rem;
+  margin-top: 2.5rem; 
+  
 }
 .items img{
   padding: 2.25rem;
+  
 }
 
 .skill-img{
   width: 11.875rem;
-  height: 11.25rem;
- 
+  height: 10.85rem;
+  border-radius: 20px;
+  margin: 5px;
  }
 
+ .skills h1{
+  color: #de7a0f;
+ }
+
+ .skill-img:hover{
+  transform: scale(1.1);
+  transition: all .5s ease
+ }
 
 
 /*  Project Section Style*/

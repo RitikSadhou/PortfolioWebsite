@@ -9,7 +9,7 @@ const Project = () => {
       <div class="projects-container">
         <div class="project-container project-card">
           <img
-            src="assets/projects/project.png"
+            src="src/projects/project.png"
            
             loading="lazy"
             class="project-pic"
@@ -25,7 +25,7 @@ const Project = () => {
 
         <div class="project-container project-card">
           <img
-            src="assets/projects/project2.png"
+            src="src/projects/project.png"
         
             loading="lazy"
             class="project-pic"
@@ -40,7 +40,7 @@ const Project = () => {
         </div>
         <div class="project-container project-card">
           <img
-            src="assets/projects/project.png"
+            src="src/projects/project.png"
             
             loading="lazy"
             class="project-pic"
@@ -55,7 +55,7 @@ const Project = () => {
         </div>
         <div class="project-container project-card">
           <img
-            src="assets/projects/project.png"
+            src="src/projects/project.png"
         
             loading="lazy"
             class="project-pic"
@@ -71,7 +71,7 @@ const Project = () => {
         
         <div class="project-container project-card">
           <img
-            src="assets/projects/project.png"
+            src="src/projects/project.png"
         
             loading="lazy"
             class="project-pic"

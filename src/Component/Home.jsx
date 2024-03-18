@@ -1,6 +1,6 @@
 import React from 'react'
-import pdf from '../Pdf/UpdatedResume.pdf'
-import hero from './Data/hero.json'
+import pdf from '../Pdf/Ritik-Resume.pdf'
+import dpimg from '../Pdf/hero.png'
 import { Bio } from './Data/bio'
 const Home = () => {
   return (
@@ -75,7 +75,7 @@ const Home = () => {
    </div>
    <div className="right">
     <div className="img">
-    <img  src={`/assets/${hero.imgSrc}`} alt="hero" />
+    <img  src={dpimg} alt="hero" />
     </div>
    
    </div>
